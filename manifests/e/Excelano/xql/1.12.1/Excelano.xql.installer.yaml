@@ -1,0 +1,17 @@
+# Created with komac v2.16.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Excelano.xql
+PackageVersion: 1.12.1
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+- RelativeFilePath: xql.exe
+  PortableCommandAlias: xql
+ReleaseDate: 2026-09-27
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/excelano/xql/releases/download/v1.12.1/xql_1.12.1_windows_amd64.zip
+  InstallerSha256: ABE0F9062105FF4AF7D22A58BCA59DBC1023C1B6C535E000BA0D3F6D9BA8FB3A
+ManifestType: installer
+ManifestVersion: 1.12.0
